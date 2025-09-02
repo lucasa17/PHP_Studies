@@ -7,7 +7,6 @@
 </head>
 <body>
     <?php
-
     $num1 = 10;
     $num2 = 5;
     echo 'Valor1: '.$num1.'</br>Valor2: '.$num2.'</br>';
