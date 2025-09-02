@@ -9,14 +9,14 @@
         $a = 5;
         $b = 10;
 
-        echo $a<$b ? '( '.true.' )':'( '.false.' )';//menor
+        echo $a<$b ? '( '.true.' )':'( '.false.' )'; //menor
         echo '</br>';
-        echo $a<=$b ? '( '.true.' )':'( '.false.' )';//menor igual
+        echo $a<=$b ? '( '.true.' )':'( '.false.' )'; //menor igual
         echo '</br>';
 
-        echo $a>$b ? '( '.true.' )':'( '.false.' )';//maior
+        echo $a>$b ? '( '.true.' )':'( '.false.' )'; //maior
         echo '</br>';
-        echo $a>=$b ? '( '.true.' )':'( '.false.' )';//maior igual
+        echo $a>=$b ? '( '.true.' )':'( '.false.' )'; //maior igual
         echo '</br>';
 
         echo $a<>$b ? '( '.true.' )':'( '.false.' )'; //diferente
@@ -33,11 +33,11 @@
         $c = 7;
         $d = 8;
 
-        echo $c===$d || $c < $d ? '( '.true.' )':'( '.false.' )';
+        echo $c===$d || $c < $d ? '( '.true.' )':'( '.false.' )'; //ou
         echo '</br>';
-        echo $c===$d && $c < $d ? '( '.true.' )':'( '.false.' )';
+        echo $c===$d && $c < $d ? '( '.true.' )':'( '.false.' )'; // e
         echo '</br>';
-        echo $c===$d xor $c < $d ? '( '.true.' )':'( '.false.' )';
+        echo $c===$d xor $c < $d ? '( '.true.' )':'( '.false.' )'; // verdadeiro se apenas uma das sentenças serem verdadeiras
         ?>
 </body>
 </html>
