@@ -12,6 +12,8 @@
         echo 'Sua idade é ' . (date("Y") - $year) . '</br>  ';
 
         echo (date("Y") - $year) >= 18 ? 'Pode votar' : 'Não pode votar';
+                
+        echo "</br><a href='exercicio1.html'><input type='button' value='Voltar'></a>"
     ?>
     </body>
 </html>
