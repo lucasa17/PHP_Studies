@@ -9,9 +9,10 @@
     <?php
         test(2,9,4,6,7,8,4,554);
         function test(){
-            $values = func_get_args();
-            $total = func_num_args();
+            $values = func_get_args();//Valores passados fazendo um vetor
+            $total = func_num_args();//Quantidade de valores no vetor
             echo "Quantidade de valores passados: " . $total . "</br>";
+
             for($i = 0; $i < $total; $i++){
                 echo "Valor " . $i+1 . ": " . $values[$i] . "</br>";
             }
