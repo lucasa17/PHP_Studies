@@ -23,7 +23,13 @@
                     for($auxiliaryNumber = 0; $auxiliaryNumber <= 10; $auxiliaryNumber++){
                         echo "<p>" . $number . " * " . $auxiliaryNumber . " = " . $number * $auxiliaryNumber . "</p>";
                     }
+                    $text = message();
+                    echo $text;
                 }
+            }
+
+            function message(){
+                return "Deu certo!";
             }
         ?>
     </fieldset>
