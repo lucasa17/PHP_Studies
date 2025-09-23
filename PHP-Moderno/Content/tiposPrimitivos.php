@@ -8,6 +8,7 @@
 <body>
     <h1>Exemplos</h1>
     <?php 
+        // Tipos Primitivos
         $number0 = 3.14; // double
         var_dump($number0);
 
@@ -52,21 +53,6 @@
         echo "<br>";
         $teste2 = (integer) $teste2; // cast para integer
         var_dump($teste2);
-        
-        echo "<br><br>";
-        $vetor = [$number1, "Lucas", 3, true, $num2];
-        var_dump($vetor);   
-
-        echo "<br><br>";
-        class Pessoa {
-            private string $nome;
-
-            public function __construct(string $nome) {
-                $this->nome = $nome;
-            }
-        }
-        $p = new Pessoa("Lucas");
-        var_dump($p);
     ?>
 </body>
 </html>
