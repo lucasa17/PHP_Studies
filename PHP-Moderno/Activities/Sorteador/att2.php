@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Antecessor e Sucessor</h1>
+        <h1>Sorteador</h1>
     </header>
     <main>
         <?php 
