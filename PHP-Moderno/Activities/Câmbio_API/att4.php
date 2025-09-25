@@ -22,7 +22,7 @@
 
             $money = $_POST["intMoney"] ? floatval($_POST["intMoney"]):null ?? 0;
              
-            echo "<p>Seus R$" . number_format($money, 2, ',') . " equivalem <strong>US$" .  number_format(($money/$cotacao), 2, ',') . "</strong></p>";
+            echo "<p>Seus R$" . number_format($money, 2, ',', '.') . " equivalem <strong>US$" .  number_format(($money/$cotacao), 2, ',', '.') . "</strong></p>";
             echo "Usando o câmbio atual de $cotacao - Segundo a API do <a href='https://bcb.gov.br/'>Banco Centra do Brasil </a>";
             
         ?>
