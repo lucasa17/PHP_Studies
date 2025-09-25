@@ -17,9 +17,9 @@
             $numInt = (int) $number;
             $numFloat = $number - $numInt;
 
-            echo "<p><strong>Valor original: </strong>" . $number . "</p>";
-            echo "<p><strong>Valor inteiro: </strong>" . $numInt . "</p>";
-            echo "<p><strong>Valor fracionário: </strong>" . $numFloat . "</p>";
+            echo "<p><strong>Valor original: </strong>" . number_format($number, 2, ',', '.') . "</p>";
+            echo "<p><strong>Valor inteiro: </strong>" . number_format($numInt, 2, ',', '.') . "</p>";
+            echo "<p><strong>Valor fracionário: </strong>" . number_format($numFloat, 2, ',', '.') . "</p>";
         ?>
         <h3><a href="javascript:history.go(-1)">Voltar para a página anterior</a></h3>
     </main>
